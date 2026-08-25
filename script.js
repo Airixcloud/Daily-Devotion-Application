@@ -81,7 +81,7 @@ function isValidVerse(verse) {
 async function loadVerse() {
     let response;
     try {
-        response = await fetch("verses.json");
+        response = await fetch("today.json");
     } catch (networkError) {
         showError("Could not load verses (network error). Please check your connection.");
         return;
