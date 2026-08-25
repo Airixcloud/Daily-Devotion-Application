@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    font-family: Georgia, "Times New Roman", serif;
+
+    background: linear-gradient(
+        135deg,
+        #f5f1e8,
+        #e9e1d2
+    );
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #2c2925;
+}
+
+.container {
+    width: 90%;
+    max-width: 850px;
+
+    text-align: center;
+}
+
+header {
+    margin-bottom: 35px;
+}
+
+.subtitle {
+    font-family: Arial, sans-serif;
+
+    font-size: 0.8rem;
+
+    letter-spacing: 4px;
+
+    color: #8a7b65;
+
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin: 0;
+
+    font-size: 3rem;
+
+    font-weight: normal;
+}
+
+.verse-card {
+    background: white;
+
+    padding: 55px 60px;
+
+    border-radius: 25px;
+
+    box-shadow:
+        0 20px 50px rgba(0, 0, 0, 0.12);
+}
+
+#reference {
+    font-family: Arial, sans-serif;
+
+    font-size: 1.3rem;
+
+    font-weight: bold;
+
+    letter-spacing: 1px;
+}
+
+.divider {
+    width: 60px;
+
+    height: 2px;
+
+    background: #b7a98f;
+
+    margin: 25px auto;
+}
+
+.english {
+    font-size: 1.6rem;
+
+    line-height: 1.8;
+
+    margin-bottom: 30px;
+}
+
+.vietnamese {
+    font-size: 1.35rem;
+
+    line-height: 1.8;
+
+    color: #665e53;
+}
+
+.date {
+    margin-top: 25px;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 0.8rem;
+
+    color: #8a8175;
+}
+
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    .verse-card {
+        padding: 40px 25px;
+    }
+
+    .english {
+        font-size: 1.3rem;
+    }
+
+    .vietnamese {
+        font-size: 1.15rem;
+    }
+}
