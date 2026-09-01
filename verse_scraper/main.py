@@ -1,7 +1,6 @@
 from lxml import etree
 import searched
 import json
-import random
 
 def main():
     data = []
@@ -10,6 +9,7 @@ def main():
 
     tree_english = etree.parse("cleaned.xml")
     root_english = tree_english.getroot()
+    
     for count in range(1,731):
         english = searched.search(root_english, count)
 
