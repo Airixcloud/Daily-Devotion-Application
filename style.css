@@ -163,18 +163,6 @@ h1 {
     color: #8a8175;
 }
 
-.side-logo {
-    position: fixed;
-    top: 25px;
-    left: 25px;
-
-    width: 60px;
-    height: 60px;
-
-    object-fit: contain;
-    z-index: 1000;
-}
-
 
 /* Mobile */
 
