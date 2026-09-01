@@ -85,6 +85,8 @@ h1 {
     font-size: 3rem;
 
     font-weight: normal;
+
+    font-family: "Montserrat", sans-serif;
 }
 
 .verse-card {
@@ -119,21 +121,22 @@ h1 {
 }
 
 .english {
-    font-size: 1.6rem;
+    font-size: 1.35rem;
 
     line-height: 1.8;
 
     margin-bottom: 30px;
+
+    color: #665e53;
 }
 
 .vietnamese {
     font-family: "Be Vietnam Pro", sans-serif;
 
-    font-size: 1.35rem;
+    font-size: 1.6rem;
 
     line-height: 1.8;
 
-    color: #665e53;
 }
 
 .info {
@@ -186,10 +189,10 @@ h1 {
     }
 
     .english {
-        font-size: 1.3rem;
+        font-size: 1.15rem;
     }
 
     .vietnamese {
-        font-size: 1.15rem;
+        font-size: 1.3rem;
     }
 }

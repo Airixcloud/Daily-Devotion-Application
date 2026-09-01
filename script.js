@@ -63,7 +63,7 @@ async function loadVerse() {
         const verse = await response.json();
 
         document.getElementById("reference").textContent =
-            `${verse.Book} ${verse.Chapter}:${verse.Verse}`;
+            `${verse.Sach} ${verse.Doan}:${verse.Cau}`;
 
         document.getElementById("english").textContent =
             verse.Text_english;
